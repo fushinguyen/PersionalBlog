@@ -27,8 +27,9 @@
         success:function(data){
           $("#user-availability-status").html(data);
           $("#loaderIcon").hide();
-        },
-        error:function(){}
+          },
+        error:function(){},
+
       });
     }
   </script>
